@@ -1,0 +1,22 @@
+* {
+  background-color: rgb(167, 219, 250);
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+img {
+  height: 500px;
+  width: 800px;
+  border: 5px solid bisque;
+  border-radius: 15%;
+}
+
+a {
+  font-size: 28px;
+  margin: 0 130px 0 130px;
+}
+
+.links {
+  margin-top: 20px;
+}
