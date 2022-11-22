@@ -36,7 +36,8 @@ footer {
 }
 
 header{
-  height: 30%;
+  /* height: 30%; */
+  height: fit-content;
   width: 100%;
   border: 1px solid red;
 }
@@ -77,24 +78,48 @@ header{
 }
 
 .section-top {
-  height: 25%;
+  /* height: 25%; */
+  height: fit-content;
   width: 100%;
 }
 
 .section-middle {
-  height: 23%;
+  /* height: 23%; */
+  height: fit-content;
   width: 100%;
+  padding: 50px 0 50px 0;
+  background-color: #e5e7eb;
+  justify-content: center;
+}
+
+.section-middle p {
+  height: fit-content;
+  width: 60%;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#name {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .section-bottom {
-  height: 17%;
+  /* height: 17%; */
+  height: fit-content;
   width: 100%;
 }
 
 footer {
-  height: 5%;
+  /* height: 5%; */
+  height: fit-content;
   width: 100%;
+  padding: 20px 0 20px 0;
   justify-content: center;
   background-color: #1f2937;
   color: white;
+  font-size: 16px;
 }
