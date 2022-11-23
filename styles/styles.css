@@ -40,23 +40,34 @@ header{
   /* height: 30%; */
   height: fit-content;
   width: 100%;
-  border: 1px solid red;
+  background-color: #1f2937;
+  color: whitesmoke;
 }
 
 .header-top {
-  height: 20%;
+  height: fit-content;
   width: 80%;
+  padding-top: 30px;
   display: flex;
   align-items: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+
+.header-bottom {
+  height: fit-content;
+  width: 80%;
+  padding: 70px 0 70px 0;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid blue; */
 }
 
 .left,
 .right {
-  height: 100%;
+  height: fit-content;
   width: 50%;
   display: flex;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .right {
@@ -64,18 +75,19 @@ header{
   align-items: center;
 }
 
+.right a {
+  margin-left: 5%;
+}
+
+.right img {
+  height: 300px;
+  width: 100%;
+  border: 2px solid red;
+}
+
 .left{
   flex-direction: column;
   justify-content: center;
-}
-
-.header-bottom {
-  height: 80%;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid blue;
 }
 
 button {
