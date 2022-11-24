@@ -97,7 +97,6 @@ header {
   font-family: "Booter", "Roboto", sans-serif;
   font-size: 36px;
   color: #f9faf8;
-  align-items: center;
 }
 
 .top-right {
@@ -212,6 +211,8 @@ button:active {
 }
 
 .images-info a {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   color: black;
   font-weight: 700;
