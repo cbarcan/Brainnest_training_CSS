@@ -185,6 +185,14 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.images-info h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
 }
 
 .images-info img {
@@ -210,6 +218,8 @@ button:active {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+  text-align: justify ;
+  text-justify: inter-word;
 }
 
 #name {
